@@ -5,11 +5,11 @@ go 1.16
 require (
 	cloud.google.com/go v0.58.0 // indirect
 	docker.io/go-docker v1.0.0
-	github.com/Microsoft/go-winio v0.4.16-0.20201130162521-d1ffc52c7331 // indirect
+	github.com/Microsoft/go-winio v0.4.17 // indirect
 	github.com/PuerkitoBio/purell v1.1.0 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/aws/aws-sdk-go v1.12.15
-	github.com/containerd/containerd v1.4.8
+	github.com/containerd/containerd v1.4.12
 	github.com/docker/distribution v2.6.0-rc.1.0.20170726174610-edc3ab29cdff+incompatible // indirect
 	github.com/docker/docker v1.4.2-0.20200309214505-aa6a9891b09c // indirect
 	github.com/docker/go-connections v0.3.0
@@ -43,6 +43,7 @@ require (
 	github.com/opencontainers/image-spec v1.0.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/prometheus/client_golang v1.7.1
+	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/rs/xid v0.0.0-20170604230408-02dd45c33376
 	github.com/satori/go.uuid v1.1.1-0.20170321230731-5bf94b69c6b6
 	github.com/shirou/gopsutil v2.16.13-0.20170924065440-6e221c482653+incompatible
@@ -57,7 +58,8 @@ require (
 	golang.org/x/text v0.3.3
 	google.golang.org/api v0.26.0
 	google.golang.org/genproto v0.0.0-20200611194920-44ba362f84c1 // indirect
-	google.golang.org/protobuf v1.26.0 // indirect
+	google.golang.org/grpc v1.33.2 // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/inf.v0 v0.9.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
