@@ -5,11 +5,11 @@ go 1.16
 require (
 	cloud.google.com/go v0.58.0 // indirect
 	docker.io/go-docker v1.0.0
-	github.com/Microsoft/go-winio v0.4.17 // indirect
+	github.com/Microsoft/go-winio v0.5.1 // indirect
 	github.com/PuerkitoBio/purell v1.1.0 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/aws/aws-sdk-go v1.12.15
-	github.com/containerd/containerd v1.4.12
+	github.com/containerd/containerd v1.4.13
 	github.com/docker/distribution v2.6.0-rc.1.0.20170726174610-edc3ab29cdff+incompatible // indirect
 	github.com/docker/docker v1.4.2-0.20200309214505-aa6a9891b09c // indirect
 	github.com/docker/go-connections v0.3.0
@@ -55,6 +55,7 @@ require (
 	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
+	golang.org/x/sys v0.0.0-20211116061358-0a5406a5449c // indirect
 	golang.org/x/text v0.3.3
 	google.golang.org/api v0.26.0
 	google.golang.org/genproto v0.0.0-20200611194920-44ba362f84c1 // indirect
